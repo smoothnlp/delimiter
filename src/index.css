@@ -1,14 +1,18 @@
 .ce-delimiter {
-    line-height: 1.6em;
+    line-height: 2em;
     width: 100%;
     text-align: center;
+    
+   
+}
+.ce-delimiter {
+    display: block;
+    padding: 6px 0;
+
 }
 
-.ce-delimiter:before {
-    display: inline-block;
-    content: "***";
-    font-size: 30px;
-    line-height: 65px;
-    height: 30px;
-    letter-spacing: 0.2em;
+ hr {
+    height: 1pt;
+    background-color: #DCDFE6;
+    border: none; 
 }

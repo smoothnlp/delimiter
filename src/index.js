@@ -56,6 +56,7 @@ class Delimiter {
     let div = document.createElement('DIV');
 
     div.classList.add(this._CSS.wrapper, this._CSS.block);
+    div.innerHTML = '<hr />';
 
     return div;
   }
